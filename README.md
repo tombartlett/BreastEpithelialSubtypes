@@ -1,6 +1,6 @@
 <h2>Breast Epithelial Subtypes</h2>
 
-Estimates breast tissue cell-type proportions, including breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal. Based on the EpiDISH algorithm (Teschendorff et al 2017, Zheng et al 2018), using reference profiles derived from Pellicani et al (2016).
+Estimates breast tissue cell-type proportions, including the breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal. Based on the EpiDISH algorithm (Teschendorff et al 2017, Zheng et al 2018), using reference profiles derived from Pellicani et al (2016).
 
 Pellacani, D., Bilenky, M., Kannan, N., Heravi-Moussavi, A., Knapp, D. J., Gakkhar, S., ... & Marra, M. A. (2016). Analysis of normal human mammary epigenomes reveals cell-specific active enhancer states and associated transcription factor networks. Cell reports, 17(8), 2060-2074.
 

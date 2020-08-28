@@ -1,5 +1,5 @@
 Package: BreastEpithelialSubtypes
-Imports: BiocManager
+Imports: BiocManager, EpiDISH
 biocViews: EpiDISH
 Type: 1.0
 Title: Estimate breast tissue cell-type proportions.
