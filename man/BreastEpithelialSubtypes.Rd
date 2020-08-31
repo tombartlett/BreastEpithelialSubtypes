@@ -7,11 +7,11 @@ estProps <- BreastEpithelialSubtypes(dataB, hierarchical=T)\cr
 \cr
 Where:\cr
 'estProps' is the estimated proportions of the important cell-types of the breast.\cr
-'dataB' is the data-set of interest (with features in rows, and samples in columns).\cr
+'dataB' is the DNA methylation microarray data-set of interest (with features in rows, and samples in columns).\cr
 'hierarchical' determines whether to use hierarchical epidish to do the estimation (i.e., to also estimate fat, adipose and immune proportions of the tissue: in almost all cases, this is the correct setting to use!)
 }
 \details{
-Estimates breast tissue cell-type proportions, including the breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal. Based on the EpiDISH algorithm (Teschendorff et al 2017, Zheng et al 2018), using reference profiles derived from Pellicani et al (2016).
+Estimates breast tissue cell-type proportions from DNA methylation microarry data, including the breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal. Based on the EpiDISH algorithm (Teschendorff et al 2017, Zheng et al 2018), using reference profiles derived from Pellicani et al (2016).
 }
 \author{
 Thomas Bartlett.
