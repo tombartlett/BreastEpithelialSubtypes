@@ -1,14 +1,8 @@
 <h2>Breast Epithelial Subtypes</h2>
 
-Estimates breast tissue cell-type proportions from DNA methylation microarry data, including the breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal, based on reference profiles $\mathbf{A}\in\mathbb{R}^{p\times k}$ derived from Pellicani et al (2016), defined for $p$ genes on $k$ cell-types. We model bulk-data matrix $\mathbf{X}\in\mathbb{R}^{p\times n}$ for $n$ bulk-tissue samples as:
-\begin{equation*}
-\mathbf{X}=\mathbf{A}\mathbf{W}+\boldsymbol{\epsilon},
-\end{equation*}
-estimating the matrix of cell-type proportions $\mathbf{W}\in[0,1]^{k\times n}$ via robust partial correlations (Teschendorff et al 2017), to solve
-\begin{equation*}
-\mathbf{W}_{:,i}=\mathbf{A}^\dagger\mathbf{X}_{:,i}
-\end{equation*}
-where $\dagger$ is pseudo-inverse, estimated using the rpc() function from the MASS package in R.
+Estimates breast tissue cell-type proportions from DNA methylation microarry data, including the breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal, based on reference profiles derived from Pellicani et al (2016). 
+
+Estimates cell-type proportions for the breast epithelial subtypes using robust partial correlations (Teschendorff et al 2017), estimated using the rlm() function from the MASS package in R.
 
 Pellacani, D., Bilenky, M., Kannan, N., Heravi-Moussavi, A., Knapp, D. J., Gakkhar, S., ... & Marra, M. A. (2016). Analysis of normal human mammary epigenomes reveals cell-specific active enhancer states and associated transcription factor networks. Cell reports, 17(8), 2060-2074.
 
