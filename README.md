@@ -4,7 +4,7 @@ Estimates breast tissue cell-type proportions from DNA methylation microarry dat
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>X</strong>=<strong>A</strong><strong>W</strong>+<strong>𝜖</strong>,  
 estimating the matrix of cell-type proportions <strong>W</strong>∈[0,1]<sup>k×n</sup> via robust partial correlations (Teschendorff et al 2017), solving (for each <em>i</em>∈{1,...,n}):  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>W</strong><sub>:,i</sub>=<strong>A</strong>†<strong>X</strong><sub>:,i</sub>,  
-where † is pseudo-inverse estimated using the rlm() function from the MASS package in R.
+where † is a pseudo-inverse estimated using the rlm() function from the MASS package in R.
 
 Pellacani, D., Bilenky, M., Kannan, N., Heravi-Moussavi, A., Knapp, D. J., Gakkhar, S., ... & Marra, M. A. (2016). Analysis of normal human mammary epigenomes reveals cell-specific active enhancer states and associated transcription factor networks. Cell reports, 17(8), 2060-2074.
 
