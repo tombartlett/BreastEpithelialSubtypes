@@ -1,6 +1,6 @@
 <h2>Breast Epithelial Subtypes</h2>
 
-Estimates breast tissue cell-type proportions from DNA methylation microarry data, including the breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal, based on reference profiles <strong>A</strong>∈ℝ^<sup>p×k</sup> derived from Pellicani et al (2016), defined for <em>p</em> genes on <em>k</em> cell-types.
+Estimates breast tissue cell-type proportions from DNA methylation microarry data, including the breast epithelium cell-subtypes luminal progenitor, mature luminal, and basal, based on reference profiles <strong>A</strong>∈ℝ<sup>p×k</sup> derived from Pellicani et al (2016), defined for <em>p</em> genes on <em>k</em> cell-types.
 
 Estimates cell-type proportions for the breast epithelial subtypes using robust partial correlations (Teschendorff et al 2017), estimated using the rlm() function from the MASS package in R.
 
