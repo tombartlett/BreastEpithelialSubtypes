@@ -1,6 +1,5 @@
 Package: BreastEpithelialSubtypes
-Imports: BiocManager, EpiDISH
-biocViews: EpiDISH
+Imports: MASS
 Type: 1.0
 Title: Estimate breast tissue cell-type proportions.
 Version: 0.1.0
@@ -8,9 +7,8 @@ Author: Thomas Bartlett
 Maintainer: Thomas Bartlett <thomas.bartlett.10@ucl.ac.uk>
 Description: Estimates breast tissue cell-type proportions from DNA methylation 
     microarry data, including the breast epithelium subtypes luminal progenitor,
-    mature luminal, and basal. Based on the EpiDISH algorithm (Teschendorff et al 
-    2017, Zheng et al 2018), using reference profiles derived from Pellicani
-    et al (2016).
+    mature luminal, and basal, as described in:
+    https://www.biorxiv.org/content/10.1101/2021.05.17.444493
 License: GNU GPLv3
 Encoding: UTF-8
 LazyData: true
